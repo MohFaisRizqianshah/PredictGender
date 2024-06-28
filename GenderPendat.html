@@ -436,7 +436,7 @@ document.write(`
 <p>Untuk mengambil data agar dapat diolah kami perlu untuk menginstall package yang telah disediakan oleh UCI Dataset. Instalasi dilakukan berguna untuk menarik data yang berasal dari UCI dataset agar dapat diolah.</p>
 <p>Peritah untuk mengambil data dari UCI dataset dapat di lihat ketika kita menekan tombol import in python pada datase yang kita inginkan dan kita perlu mengikuti perintah tersebut agar data dapat diambil dari UCI dataset.</p>
 <p>Contoh pengambilan data dari UCI dataset dapat dilihat pada gambar dan perintah berkut</p>
-<img src="image-20240620-142505.png" width="" align="" /><div class="cell docutils container">
+<img src="_images/ucirepo.png" width="" align="" /><div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">ucimlrepo</span> <span class="kn">import</span> <span class="n">fetch_ucirepo</span> 
   
@@ -1094,7 +1094,7 @@ dtype: object
 <li><p>Mengghitung Probabilitas pada data train</p></li>
 </ol>
 <p>lakukan perhitungan probabilitas dari masing-masing kelas sesuai dengan jumlah data train pada kelas tersebut kemudian dibagi dengan banyaknya total data train</p>
-<img src="image-20240620-154800.png" width="" align="" /><ol class="arabic simple" start="3">
+<img src="_images/prob.png" width="" align="" /><ol class="arabic simple" start="3">
 <li><p>Menghitung Frekuensi Karakter dari Setiap Nama per Kelas pada Data Train</p></li>
 </ol>
 <p>hitung frekuensi karakter yang muncul dalam data train</p>
@@ -1102,11 +1102,11 @@ dtype: object
 <li><p>Menghitung Probabilitas Kondisional pada Data Train</p></li>
 </ol>
 <p>hitung probabilitas kondisional berdasarkan frekuensi karakter yang muncul pada data train dengan rumus berikut</p>
-<img src="image-20240620-211219.png" width="" align="" /><img src="image-20240620-211442.png" width="" align="" /><ol class="arabic simple" start="6">
+<img src="_images/probkond.png" width="" align="" /><img src="_images/detprobkond.png" width="" align="" /><ol class="arabic simple" start="6">
 <li><p>Hasil Perhitungan Berdasarkan Perhitungan dari Probabilitas dan Probabilitas Kondisional</p></li>
 </ol>
 <p>hitung skor dengan mengalikan probabilitas a priori kelas dengan probabilitas kondisional dari setiap karakter dalam tiap data pada data train, rumusnya sebagai berikut :</p>
-<img src="image-20240620-212047.png" width="" align="" /><img src="image-20240620-212503.png" width="" align="" /><p>MODEL</p>
+<img src="_images/hitskor.png" width="" align="" /><img src="_images/dethitskor.png" width="" align="" /><p>MODEL</p>
 <p>berikut model yang telah kita buat untuk memprediksi gender</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
